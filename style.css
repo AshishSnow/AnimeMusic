@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.music-main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 6rem;
+    height: 100vh;
+}
+
+
+.music-container{
+
+   
+    
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+
+
+.music-box{
+   
+
+    margin: 1rem;
+}
+
+#title{
+
+  
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   
+}
+
+.music-btn{
+
+    margin: 1rem;
+    border-radius: 20px;
+
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.music-data img{
+
+width: 50px;
+height: 50px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+border-radius: 30px;
+
+}
+
+.music-gif {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* width: 250px;
+    height: 300px;
+    object-fit: contain;
+    */
+}
+
+#gif{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 250px;
+    height: 300px;
+
+    object-fit: contain;
+    border-radius: 10px;
+
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.music-btn{
+
+    background-color: linen;
+
+    display: flex;
+    justify-content: space-around;
+   
+    margin-top: 2rem;
+    align-items: center;
+    
+}
+
+.music-btn .fa-solid:hover{
+
+    color: lightcoral;
+}
+
+
+.music-bottom{
+
+
+ 
+    
+}
+
+input{
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+
+
+
+}
+
+
+
+  
+
+ 
+  
